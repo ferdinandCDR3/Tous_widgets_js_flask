@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.affichage {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hide{
+    display:none;
+ }
+ 
+ input[type=text]{
+  /* Set width to 40characters */
+  width: 40ch;
+  /* prevent overflow of container */
+  /* max-width: 100%; */
+}
+ 
+ input[type=radio]{
+  /* Set width to 40characters */
+  width: 5ch;
+  /* prevent overflow of container */
+  /* max-width: 100%; */
+}
+
+input[type=checkbox]{
+  /* Set width to 40characters */
+  width: 5ch;
+  /* prevent overflow of container */
+  /* max-width: 100%; */
+}
+
